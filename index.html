@@ -1,1 +1,99 @@
-hi hi kak
+<!doctype html>
+<html lang="id">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>Portofolio — Bagus Raharja Putra</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header class="site-header">
+		<div class="container header-inner">
+			<h1 class="site-title">Bagus Raharja Putra</h1>
+			<nav class="site-nav">
+				<a href="#about">Tentang</a>
+				<a href="#projects">Proyek</a>
+				<a href="#contact">Kontak</a>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<section class="hero">
+			<div class="container hero-inner">
+				<div class="hero-text">
+					<p class="eyebrow">Halo, saya</p>
+					<h2>Bagus Raharja Putra</h2>
+					<p class="lead">Desainer & Pengembang web — membuat antarmuka yang rapi, cepat, dan aksesibel.</p>
+					<p>
+						<a class="btn primary" href="#projects">Lihat Proyek</a>
+						<a class="btn ghost" href="#contact">Hubungi Saya</a>
+					</p>
+				</div>
+				<div class="hero-visual" aria-hidden="true">
+					<svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+						<rect width="240" height="240" rx="16" fill="#0f172a"/>
+						<text x="50%" y="50%" fill="#9ca3af" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" alignment-baseline="middle">Foto
+						</text>
+					</svg>
+				</div>
+			</div>
+		</section>
+
+		<section id="about" class="container about">
+			<h3>Tentang Saya</h3>
+			<p>Saya adalah pengembang web yang berfokus pada pembuatan antarmuka yang sederhana dan efektif. Saya senang bekerja pada proyek-proyek yang membutuhkan perhatian pada detail, perfoma, dan pengalaman pengguna.</p>
+			<ul class="skills">
+				<li>HTML &amp; CSS</li>
+				<li>JavaScript</li>
+				<li>Responsive Design</li>
+				<li>Accessibility</li>
+			</ul>
+		</section>
+
+		<section id="projects" class="container projects">
+			<h3>Proyek Terpilih</h3>
+			<div class="grid">
+				<article class="card">
+					<h4>Proyek A</h4>
+					<p>Deskripsi singkat proyek A. Teknologi: HTML, CSS, JS.</p>
+					<p><a href="#" class="link">Lihat detail →</a></p>
+				</article>
+
+				<article class="card">
+					<h4>Proyek B</h4>
+					<p>Deskripsi singkat proyek B. Fokus pada performa dan aksesibilitas.</p>
+					<p><a href="#" class="link">Lihat detail →</a></p>
+				</article>
+
+				<article class="card">
+					<h4>Proyek C</h4>
+					<p>Deskripsi singkat proyek C. Implementasi responsif dan animasi ringan.</p>
+					<p><a href="#" class="link">Lihat detail →</a></p>
+				</article>
+			</div>
+		</section>
+
+		<section id="contact" class="container contact">
+			<h3>Kontak</h3>
+			<p>Ingin bekerja sama atau punya pertanyaan? Kirim email ke <a href="mailto:bagus@example.com">bagus@example.com</a> atau hubungi melalui media sosial.</p>
+			<div class="socials">
+				<a href="#">GitHub</a>
+				<a href="#">LinkedIn</a>
+				<a href="#">Twitter</a>
+			</div>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="container">
+			<p>© <span id="year"></span> Bagus Raharja Putra. Semua hak cipta.</p>
+		</div>
+	</footer>
+
+	<script>
+		// Set current year
+		document.getElementById('year').textContent = new Date().getFullYear();
+	</script>
+</body>
+</html>
